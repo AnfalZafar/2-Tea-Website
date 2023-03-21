@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: linear-gradient(rgb(0,0,0,0.60),rgb(0,0,0,0.60)),url(images/home\ page.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+}
+.header .navbar{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.header .logo{
+    margin: auto;
+    width: 150px;
+}
+.header .navbar .nav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.header .navbar .nav ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+.header .navbar .nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.header .navbar .detail{
+    padding-left: 30%;
+    font-size: 45px;
+    padding-top: 5%;
+}
+.header .navbar .detail span{
+    color: red;
+}
+.header .navbar .detail button{
+    margin-left: 60px;
+    width: 150px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 25px;
+font-size: 15px;
+color: #fff;
+font-weight: bold;
+}
+.header .navbar .detail button:hover{
+    background: #fff;
+    color: #000;
+}
